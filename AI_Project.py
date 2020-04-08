@@ -146,7 +146,7 @@ if __name__ == '__main__':
             [0, 0, 0, 0, 0, 0]]
     
     start = [0, 0] # starting position
-    end = [4,6] # ending position
+    end = [5,5] # ending position
     cost = 1 # cost per movement
       
     path = search(maze,cost, start, end)
